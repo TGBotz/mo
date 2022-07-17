@@ -3,24 +3,23 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✨ 𝗡𝗔𝗠𝗘 : {}
-✨ 𝗢𝗪𝗡𝗘𝗥 : <a href=https://t.me/Hithaishi_Desai>𝗛𝗜𝗧𝗛𝗔𝗜𝗦𝗛𝗜 𝗗𝗘𝗦𝗔𝗜</a>
+✨ 𝗢𝗪𝗡𝗘𝗥 : <a href=https://t.me/HYBRID_BOTS>HYBRID Bots/a>
 ✨ 𝗟𝗜𝗕𝗥𝗔𝗥𝗬 :𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠
 ✨ 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : 𝗣𝗬𝗧𝗛𝗢𝗡 3
-✨ 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢 𝗗𝗕
-✨ 𝗕𝗢𝗧 𝗦𝗘𝗥𝗩𝗘𝗥 : 𝗛𝗘𝗥𝗢𝗞𝗨
+✨ 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢𝗗𝗕
+✨ 𝗕𝗢𝗧 𝗦𝗘𝗥𝗩𝗘𝗥 : DigitalOcean VPS
 ✨ 𝗕𝗨𝗜𝗟𝗗 𝗦𝗧𝗔𝗧𝗨𝗦 : 𝗩1.0.1 [𝗕𝗘𝗧𝗔]"""
     SOURCE_TXT = """<b>NOTE:</b>
-👻 THIS is a open source project. 
-👻 Source Code- https://github.com/HithaishiDesai/Hithaishi-File-Store-Bot  
+👻 THIS is a open source project.  
 
 <b>👻 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥:</b>
-- <a href=https://github.com/HithaishiDesai/Hithaishi-File-Store-Bot>𝗛𝗜𝗧𝗛𝗔𝗜𝗦𝗛𝗜 𝗗𝗘𝗦𝗔𝗜</a>"""
+- <a href=https://t.me/hybrid_bots>HYBRID Bots</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -35,11 +34,11 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/hybridmoviebot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -90,11 +89,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """🪄 𝗧𝗢𝗧𝗔𝗟 𝗙𝗜𝗟𝗘𝗦 : <code>{}</code>
-🪄 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦 : <code>{}</code>
-🪄 𝗧𝗢𝗧𝗔𝗟 𝗖𝗛𝗔𝗧𝗦 : <code>{}</code>
-🪄 𝗨𝗦𝗘𝗗 𝗦𝗣𝗔𝗖𝗘 : <code>{}</code> 𝗠𝗕
-🪄 𝗙𝗥𝗘𝗘 𝗦𝗣𝗔𝗖𝗘 : <code>{}</code> 𝗠𝗕"""
+    STATUS_TXT = """🗄️ 𝗧𝗢𝗧𝗔𝗟 𝗙𝗜𝗟𝗘𝗦 : <code>{}</code>
+👤 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦 : <code>{}</code>
+👥 𝗧𝗢𝗧𝗔𝗟 𝗖𝗛𝗔𝗧𝗦 : <code>{}</code>
+💾 𝗨𝗦𝗘𝗗 𝗦𝗣𝗔𝗖𝗘 : <code>{}</code> 𝗠𝗕
+💽 𝗙𝗥𝗘𝗘 𝗦𝗣𝗔𝗖𝗘 : <code>{}</code> 𝗠𝗕"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>

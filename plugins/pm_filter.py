@@ -374,7 +374,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ms = await client.send_cached_media(
                         chat_id=CH_FILTER,
                         file_id=file_id,
-                        caption=f'<b>🤠 𝗛𝗶 {query.from_user.mention}</b>\n\n<b>🔖 𝗡𝗔𝗠𝗘 :</b><code> {title}</code>\n\n<b>💾 𝗦𝗜𝗭𝗘 :</b> {size}\n\n\n<b>╭─── • ❰ 𝗝𝗢𝗜𝗡  𝗛𝗘𝗥𝗘 ❱ • ──➣\n┣ 🎞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : @Hithaishi_Desai\n┣ 💬 𝗚𝗥𝗢𝗨𝗣 : @HithaishiMovies_Discussion_Group\n╰───── • ◆ • ──────➣</b>',
+                        caption=f'<b>🤠 𝗛𝗶 {query.from_user.mention}</b>\n\n<b>🔖 𝗡𝗔𝗠𝗘 :</b><code> {title}</code>\n\n<b>💾 𝗦𝗜𝗭𝗘 :</b> {size}\n\n\n<b>╭─── • ❰ 𝗝𝗢𝗜𝗡  𝗛𝗘𝗥𝗘 ❱ • ──➣\n┣ 🎞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : @HYBRID_Movies\n┣ 💬 𝗚𝗥𝗢𝗨𝗣 : @HYBRID_MOVIE_GROUP\n╰───── • ◆ • ──────➣</b>',
                         protect_content=True if ident == "filep" else False 
                     )
                     msg1 = await query.message.reply(
@@ -438,10 +438,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Hithaishi_Desai')
+            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/HYBRID_Bots')
         ], [
             InlineKeyboardButton('🕵🏻‍♂ 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HithaishiMovies_Discussion_Group')
+            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HYBRID_Movies')
         ], [
             InlineKeyboardButton('👨🏻‍💻 𝗛𝗘𝗟𝗣', callback_data='help'),
             InlineKeyboardButton('🍁 𝗔𝗕𝗢𝗨𝗧', callback_data='about')
@@ -472,7 +472,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HithaishiMovies_Discussion_Group'),
+            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HYBRID_Movies'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),

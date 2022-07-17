@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HithaishiMovies_Discussion_Group')
+                InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HYBRID_MOVIES')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -42,10 +42,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Hithaishi_Desai')
+            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/HYBRID_Bots')
             ],[
             InlineKeyboardButton('🕵🏻‍♂ 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HithaishiMovies_Discussion_Group')
+            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HYBRID_Movies')
             ],[
             InlineKeyboardButton('👨🏻‍💻 𝗛𝗘𝗟𝗣', callback_data='help'),
             InlineKeyboardButton('🍁 𝗔𝗕𝗢𝗨𝗧', callback_data='about')
@@ -88,10 +88,10 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Hithaishi_Desai')
+            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/HYBRID_Bots')
             ],[
             InlineKeyboardButton('🕵🏻‍♂ 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HithaishiMovies_Discussion_Group')
+            InlineKeyboardButton('🤖 🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HYBRID_Bots')
             ],[
             InlineKeyboardButton('👨🏻‍💻 𝗛𝗘𝗟𝗣', callback_data='help'),
             InlineKeyboardButton('🍁 𝗔𝗕𝗢𝗨𝗧', callback_data='about')
