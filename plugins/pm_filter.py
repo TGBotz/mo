@@ -388,10 +388,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 📥", url = ms.link)
+                                InlineKeyboardButton("1️⃣ 𝗙𝗜𝗥𝗦𝗧 𝗝𝗢𝗜𝗡", url = f"{CH_LINK}")
                             ],
                             [
-                                InlineKeyboardButton("⚠️ 𝗙𝗜𝗥𝗦𝗧 𝗝𝗢𝗜𝗡 ⚠️", url = f"{CH_LINK}")
+                               InlineKeyboardButton("2️⃣ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 ", url = ms.link) 
                             ]
                         ]
                     )
