@@ -396,7 +396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         ]
                     )
                 )
-                await query.answer('👻 𝗖𝗵𝗲𝗰𝗸 𝗙𝗜𝗟𝗘𝗦 𝗚𝗥𝗢𝗨𝗣 𝗙𝗼𝗿 𝗙𝗶𝗹𝗺 👻',show_alert=True)
+                await query.answer('👻 Click on the Buttons Below For File 👻',show_alert=True)
                 await asyncio.sleep(300)
                 await msg1.delete()            
                 await ms.delete()
